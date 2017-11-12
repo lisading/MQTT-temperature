@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Subscribe To Temperature</title>
+    </head>
+    <body>
+        <h1>Subscribe To Temperature</h1>
+
+        <form action="" method="get">
+            <h3>
+                Choose a temperature to subscribe: <br>
+                <input type = "radio" name = "temp" value = "allTemps" onclick = "getTemp()" checked>all temperatures<br>            
+                <input type = "radio" name = "temp" value = "coldTemps" onclick = "getTemp()">cold temperatures<br>
+                <input type = "radio" name = "temp" value = "niceTemps" onclick = "getTemp()">nice temperatures<br>
+                <input type = "radio" name = "temp" value = "hotTemps" onclick = "getTemp()">hot temperatures<br>
+            </h3>
+        </form>
+            
+        <h3>Below are temperature and timestamp: </h3>
+        <h3 id="demo"></h3>
+        
+    </body>
+</html>

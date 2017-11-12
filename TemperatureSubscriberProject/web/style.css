@@ -1,0 +1,70 @@
+/* This file based on 'Tranquille' by Dave Shea */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 3;
+	color: #555753; 
+	margin: 0; 
+	padding: 0;
+        text-align: center;
+
+}
+
+p { 
+	margin-top: 0; 
+	text-align: center;
+}
+
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+}
+
+        
+.submit:hover {
+        background-color:#6E7B91;
+        border-color:#333;
+}
+
+.submit{
+        font: georgia;
+        font-variant: small-caps;
+        font-weight: 500;
+        padding:5px 15px; 
+        margin-top: 20px;
+        margin-left: 20px;
+        background:#FFF; 
+        border-radius:6px;
+        color:#0F0D0D;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+}
+
+
+.input{
+        width:250px;
+        height:30px;
+        padding-left:15px;
+        border-radius:6px;
+        border:none;
+        color:#0F0D0D;
+        font-weight:500;
+        background-color: #FFF;
+        margin: 20px;
+        box-sizing:border-box;
+        border: 2px solid #6E7B91;
+        border-radius:6px;
+        
+}
+
+.input:focus {
+        border-color:#333;
+}
